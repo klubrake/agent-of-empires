@@ -1,0 +1,172 @@
+2026-11-05T15:22:09.913466046+00:00 INFO log.runtime [AOE_START_MARKER] version=1.21.0 pid=3018151 exe=/workspace/agent-of-empires-worktrees/aoe-ui-fixer/target/debug/aoe
+2026-11-05T15:22:09.913704Z  INFO log.runtime: aoe started version="1.21.0" pid=3018151
+2026-11-05T15:22:09.913815Z  INFO log.runtime: Debug logging at info to /tmp/aoe-pw-w1-p0-sUkRQ6/config/agent-of-empires-dev/debug.log
+2026-11-05T15:22:09.914269Z  WARN serve.shutdown: no pid file; daemon not running path=/tmp/aoe-pw-w1-p0-sUkRQ6/config/agent-of-empires-dev/serve.pid
+2026-11-05T15:22:09.914377Z  ERROR log.runtime: fatal: No running daemon found (no PID file at /tmp/aoe-pw-w1-p0-sUkRQ6/config/agent-of-empires-dev/serve.pid)
+2026-11-05T15:22:09.963935070+00:00 INFO log.runtime [AOE_START_MARKER] version=1.21.0 pid=3018164 exe=/workspace/agent-of-empires-worktrees/aoe-ui-fixer/target/debug/aoe
+2026-11-05T15:22:09.964241Z  INFO log.runtime: aoe started version="1.21.0" pid=3018164
+2026-11-05T15:22:09.964362Z  INFO log.runtime: Debug logging at info to /tmp/aoe-pw-w1-p0-sUkRQ6/config/agent-of-empires-dev/debug.log
+2026-11-05T15:22:09.964934Z  INFO migrations: running migration version=1 name="xdg_linux"
+2026-11-05T15:22:09.970273Z  INFO migrations: migration completed version=1 name="xdg_linux" duration_ms=5
+2026-11-05T15:22:09.970335Z  INFO migrations: running migration version=2 name="seed_sandbox_from_volumes"
+2026-11-05T15:22:09.971693Z  INFO agent_of_empires::migrations::v002_seed_sandbox_from_volumes: Docker not available, skipping volume migration
+2026-11-05T15:22:09.973864Z  INFO migrations: migration completed version=2 name="seed_sandbox_from_volumes" duration_ms=3
+2026-11-05T15:22:09.973894Z  INFO migrations: running migration version=3 name="yolo_mode_config"
+2026-11-05T15:22:09.977396Z  INFO migrations: migration completed version=3 name="yolo_mode_config" duration_ms=3
+2026-11-05T15:22:09.977424Z  INFO migrations: running migration version=4 name="unified_environment"
+2026-11-05T15:22:09.981162Z  INFO migrations: migration completed version=4 name="unified_environment" duration_ms=3
+2026-11-05T15:22:09.981207Z  INFO migrations: running migration version=5 name="acp_defaults"
+2026-11-05T15:22:09.982627Z  INFO agent_of_empires::migrations::v005_cockpit_defaults: v005: seeded [cockpit] section in /tmp/aoe-pw-w1-p0-sUkRQ6/config/agent-of-empires-dev/config.toml
+2026-11-05T15:22:09.985608Z  INFO migrations: migration completed version=5 name="acp_defaults" duration_ms=4
+2026-11-05T15:22:09.985645Z  INFO migrations: running migration version=6 name="unlimited_cockpit_history"
+2026-11-05T15:22:09.987348Z  INFO agent_of_empires::migrations::v006_unlimited_cockpit_history: v006: flipped cockpit.replay_events from 500 to 0 (unlimited) in /tmp/aoe-pw-w1-p0-sUkRQ6/config/agent-of-empires-dev/config.toml
+2026-11-05T15:22:09.994190Z  INFO migrations: migration completed version=6 name="unlimited_cockpit_history" duration_ms=8
+2026-11-05T15:22:09.994244Z  INFO migrations: running migration version=7 name="serve_log_to_legacy"
+2026-11-05T15:22:09.998227Z  INFO migrations: migration completed version=7 name="serve_log_to_legacy" duration_ms=3
+2026-11-05T15:22:09.998298Z  INFO migrations: running migration version=8 name="lock_in_default_profile"
+2026-11-05T15:22:10.009911Z  INFO migrations: migration completed version=8 name="lock_in_default_profile" duration_ms=11
+2026-11-05T15:22:10.009998Z  INFO migrations: running migration version=9 name="update_check_mode"
+2026-11-05T15:22:10.015576Z  INFO migrations: migration completed version=9 name="update_check_mode" duration_ms=5
+2026-11-05T15:22:10.015647Z  INFO migrations: running migration version=10 name="drop_legacy_live_send_exit_chord"
+2026-11-05T15:22:10.021308Z  INFO migrations: migration completed version=10 name="drop_legacy_live_send_exit_chord" duration_ms=5
+2026-11-05T15:22:10.021363Z  INFO migrations: running migration version=11 name="relocate_sandbox_image"
+2026-11-05T15:22:10.025563Z  INFO migrations: migration completed version=11 name="relocate_sandbox_image" duration_ms=4
+2026-11-05T15:22:10.025596Z  INFO migrations: running migration version=12 name="acp_rename"
+2026-11-05T15:22:10.027817Z  INFO agent_of_empires::migrations::v012_acp_rename: v012: renamed [cockpit] -> [acp] in /tmp/aoe-pw-w1-p0-sUkRQ6/config/agent-of-empires-dev/config.toml
+2026-11-05T15:22:10.029954Z  INFO migrations: migration completed version=12 name="acp_rename" duration_ms=4
+2026-11-05T15:22:10.029982Z  INFO migrations: running migration version=13 name="strip_profile_theme"
+2026-11-05T15:22:10.033294Z  INFO migrations: migration completed version=13 name="strip_profile_theme" duration_ms=3
+2026-11-05T15:22:10.033323Z  INFO migrations: running migration version=14 name="rename_default_theme"
+2026-11-05T15:22:10.036977Z  INFO migrations: migration completed version=14 name="rename_default_theme" duration_ms=3
+2026-11-05T15:22:10.037004Z  INFO migrations: running migration version=15 name="rewrite_hook_strings"
+2026-11-05T15:22:10.038600Z  INFO migrations.v015: v015: done count=0
+2026-11-05T15:22:10.043172Z  INFO migrations: migration completed version=15 name="rewrite_hook_strings" duration_ms=6
+2026-11-05T15:22:10.043232Z  INFO migrations: running migration version=16 name="clear_archived_tmux_gone_error"
+2026-11-05T15:22:10.047021Z  INFO migrations: migration completed version=16 name="clear_archived_tmux_gone_error" duration_ms=3
+2026-11-05T15:22:10.047060Z  INFO migrations: running migration version=17 name="rewrite_hook_strings_for_per_user_base"
+2026-11-05T15:22:10.048547Z  WARN migrations.v017: v017: failed to remove /tmp/aoe-hooks/984d462a5a89421b: EBUSY: Device or resource busy
+2026-11-05T15:22:10.048604Z  INFO migrations.v017: v017: done count=0
+2026-11-05T15:22:10.051493Z  INFO migrations: migration completed version=17 name="rewrite_hook_strings_for_per_user_base" duration_ms=4
+2026-11-05T15:22:10.051567Z  INFO migrations: running migration version=18 name="strip_codex_config_toml_hooks"
+2026-11-05T15:22:10.053563Z  INFO migrations.v018: v018: done count=0
+2026-11-05T15:22:10.059856Z  INFO migrations: migration completed version=18 name="strip_codex_config_toml_hooks" duration_ms=8
+2026-11-05T15:22:10.059928Z  INFO migrations: running migration version=19 name="move_acp_defaults_to_acp"
+2026-11-05T15:22:10.067573Z  INFO migrations: migration completed version=19 name="move_acp_defaults_to_acp" duration_ms=7
+2026-11-05T15:22:10.067633Z  INFO migrations: running migration version=20 name="move_tui_branch_suffix_to_row_tag"
+2026-11-05T15:22:10.072553Z  INFO migrations: migration completed version=20 name="move_tui_branch_suffix_to_row_tag" duration_ms=4
+2026-11-05T15:22:10.072613Z  INFO migrations: running migration version=21 name="split_app_state_to_state_toml"
+2026-11-05T15:22:10.075927Z  INFO agent_of_empires::migrations::v021_split_app_state_to_state_toml: v021: removed [app_state] from /tmp/aoe-pw-w1-p0-sUkRQ6/config/agent-of-empires-dev/config.toml and moved it to /tmp/aoe-pw-w1-p0-sUkRQ6/config/agent-of-empires-dev/state.toml
+2026-11-05T15:22:10.078195Z  INFO migrations: migration completed version=21 name="split_app_state_to_state_toml" duration_ms=5
+2026-11-05T15:22:10.078238Z  INFO migrations: running migration version=22 name="prune_tuning_settings"
+2026-11-05T15:22:10.079434Z  INFO agent_of_empires::migrations::v022_prune_tuning_settings: Dropping removed acp.replay_bytes from /tmp/aoe-pw-w1-p0-sUkRQ6/config/agent-of-empires-dev/config.toml
+2026-11-05T15:22:10.082427Z  INFO migrations: migration completed version=22 name="prune_tuning_settings" duration_ms=4
+2026-11-05T15:22:10.082460Z  INFO migrations: running migration version=23 name="clear_structured_container_error"
+2026-11-05T15:22:10.086219Z  INFO migrations: migration completed version=23 name="clear_structured_container_error" duration_ms=3
+2026-11-05T15:22:10.086258Z  INFO migrations: running migration version=24 name="backfill_detect_as"
+2026-11-05T15:22:10.090883Z  INFO migrations: migration completed version=24 name="backfill_detect_as" duration_ms=4
+2026-11-05T15:22:10.090913Z  INFO migrations: running migration version=25 name="reenable_confirm_delete"
+2026-11-05T15:22:10.097601Z  INFO migrations: migration completed version=25 name="reenable_confirm_delete" duration_ms=6
+2026-11-05T15:22:10.097663Z  INFO migrations: running migration version=26 name="repoint_acp_default_agent"
+2026-11-05T15:22:10.099082Z  INFO agent_of_empires::migrations::v026_repoint_acp_default_agent: v026: repointed acp.default_agent away from the unpackaged aoe-agent in /tmp/aoe-pw-w1-p0-sUkRQ6/config/agent-of-empires-dev/config.toml
+2026-11-05T15:22:10.102569Z  INFO migrations: migration completed version=26 name="repoint_acp_default_agent" duration_ms=4
+2026-11-05T15:22:10.102635Z  INFO migrations: running migration version=27 name="isolate_sandbox_stores"
+2026-11-05T15:22:10.110202Z  INFO migrations: migration completed version=27 name="isolate_sandbox_stores" duration_ms=7
+2026-11-05T15:22:10.110274Z  INFO migrations: running migration version=28 name="clear_archived_live_status"
+2026-11-05T15:22:10.118056Z  INFO migrations: migration completed version=28 name="clear_archived_live_status" duration_ms=7
+2026-11-05T15:22:10.118151Z  INFO migrations: running migration version=29 name="fold_pending_initial_turn"
+2026-11-05T15:22:10.123355Z  INFO migrations: migration completed version=29 name="fold_pending_initial_turn" duration_ms=5
+2026-11-05T15:22:10.123414Z  INFO migrations: running migration version=30 name="global_only_profile_settings"
+2026-11-05T15:22:10.127556Z  INFO migrations: migration completed version=30 name="global_only_profile_settings" duration_ms=4
+2026-11-05T15:22:10.127596Z  INFO migrations: running migration version=31 name="conversation_provenance"
+2026-11-05T15:22:10.130910Z  INFO migrations: migration completed version=31 name="conversation_provenance" duration_ms=3
+2026-11-05T15:22:10.130941Z  INFO migrations: running migration version=32 name="bound_capture_exclusions"
+2026-11-05T15:22:10.134422Z  INFO migrations: migration completed version=32 name="bound_capture_exclusions" duration_ms=3
+2026-11-05T15:22:10.134457Z  INFO migrations: running migration version=33 name="isolate_sandbox_content"
+2026-11-05T15:22:10.138648Z  INFO migrations: migration completed version=33 name="isolate_sandbox_content" duration_ms=4
+2026-11-05T15:22:10.138694Z  INFO migrations: running migration version=34 name="trash_retention_minutes"
+2026-11-05T15:22:10.142244Z  INFO migrations: migration completed version=34 name="trash_retention_minutes" duration_ms=3
+2026-11-05T15:22:10.142279Z  INFO migrations: running migration version=35 name="custom_sort_order"
+2026-11-05T15:22:10.143701Z  INFO migrations: v035: schema step for the custom sort order, nothing to rewrite
+2026-11-05T15:22:10.146224Z  INFO migrations: migration completed version=35 name="custom_sort_order" duration_ms=3
+2026-11-05T15:22:10.146289Z  INFO migrations: running migration version=36 name="session_creation_count"
+2026-11-05T15:22:10.150414Z  INFO migrations.v036: v036: seeded session creation count from 0 retained sessions
+2026-11-05T15:22:10.152955Z  INFO migrations: migration completed version=36 name="session_creation_count" duration_ms=6
+2026-11-05T15:22:10.153015Z  INFO migrations: running migration version=37 name="trash_lifecycle_id"
+2026-11-05T15:22:10.158126Z  INFO migrations: migration completed version=37 name="trash_lifecycle_id" duration_ms=5
+2026-11-05T15:22:10.158210Z  INFO migrations: running migration version=38 name="prime_native_runtime"
+2026-11-05T15:22:10.165904Z  INFO migrations: migration completed version=38 name="prime_native_runtime" duration_ms=7
+2026-11-05T15:22:10.165967Z  INFO migrations: running migration version=39 name="prime_control_path"
+2026-11-05T15:22:10.173378Z  INFO migrations: migration completed version=39 name="prime_control_path" duration_ms=7
+2026-11-05T15:22:10.173457Z  INFO migrations: running migration version=40 name="worker_ownership"
+2026-11-05T15:22:10.179886Z  INFO migrations: migration completed version=40 name="worker_ownership" duration_ms=6
+2026-11-05T15:22:10.179948Z  INFO migrations: running migration version=41 name="pending_purge_owners"
+2026-11-05T15:22:10.182492Z  INFO migrations.v041: Initialized durable pending purge ownership
+2026-11-05T15:22:10.184781Z  INFO migrations: migration completed version=41 name="pending_purge_owners" duration_ms=4
+2026-11-05T15:22:10.184814Z  INFO migrations: running migration version=42 name="reconcile_session_creation_count"
+2026-11-05T15:22:10.188523Z  INFO migrations: migration completed version=42 name="reconcile_session_creation_count" duration_ms=3
+2026-11-05T15:22:10.188561Z  INFO migrations: running migration version=43 name="reconcile_trash_lifecycle_id"
+2026-11-05T15:22:10.191935Z  INFO migrations: migration completed version=43 name="reconcile_trash_lifecycle_id" duration_ms=3
+2026-11-05T15:22:10.191969Z  INFO migrations: running migration version=44 name="reconcile_serve_passphrase_policy"
+2026-11-05T15:22:10.195444Z  INFO migrations: migration completed version=44 name="reconcile_serve_passphrase_policy" duration_ms=3
+2026-11-05T15:22:10.195514Z  INFO migrations: running migration version=45 name="runner_scope_ownership"
+2026-11-05T15:22:10.200710Z  INFO migrations: migration completed version=45 name="runner_scope_ownership" duration_ms=5
+2026-11-05T15:22:10.200779Z  INFO migrations: running migration version=46 name="reconcile_runtime_lineages"
+2026-11-05T15:22:10.206236Z  INFO migrations: migration completed version=46 name="reconcile_runtime_lineages" duration_ms=5
+2026-11-05T15:22:10.206296Z  INFO migrations: running migration version=47 name="tool_retirements"
+2026-11-05T15:22:10.211517Z  INFO migrations.v047: Initialized durable original tool retirement journal
+2026-11-05T15:22:10.215839Z  INFO migrations: migration completed version=47 name="tool_retirements" duration_ms=9
+2026-11-05T15:22:10.215911Z  INFO migrations: running migration version=48 name="terminal_handoffs"
+2026-11-05T15:22:10.218027Z  INFO migrations.v048: Validated retained terminal handoff authority
+2026-11-05T15:22:10.231337Z  INFO migrations: migration completed version=48 name="terminal_handoffs" duration_ms=15
+2026-11-05T15:22:10.231421Z  INFO migrations: running migration version=49 name="session_started_at"
+2026-11-05T15:22:10.232912Z  INFO agent_of_empires::migrations::v049_session_started_at: v049: session started_at is recorded on the next launch; existing rows stay unset
+2026-11-05T15:22:10.235694Z  INFO migrations: migration completed version=49 name="session_started_at" duration_ms=4
+2026-11-05T15:22:10.235744Z  INFO migrations: running migration version=50 name="sound_volume_split"
+2026-11-05T15:22:10.239550Z  INFO migrations: migration completed version=50 name="sound_volume_split" duration_ms=3
+2026-11-05T15:22:10.239590Z  INFO migrations: running migration version=51 name="structured_view"
+2026-11-05T15:22:10.243534Z  INFO migrations: migration completed version=51 name="structured_view" duration_ms=3
+2026-11-05T15:22:10.243581Z  INFO migrations: running migration version=52 name="runtime_filter_acp_target"
+2026-11-05T15:22:10.246970Z  INFO migrations: migration completed version=52 name="runtime_filter_acp_target" duration_ms=3
+2026-11-05T15:22:10.247001Z  INFO migrations: running migration version=53 name="runtime_filter_reset"
+2026-11-05T15:22:10.250907Z  INFO migrations: migration completed version=53 name="runtime_filter_reset" duration_ms=3
+2026-11-05T15:22:10.252995Z  INFO serve.daemon: starting foreground serve profile= host=127.0.0.1 port=5300 mode="local" auth=None
+2026-11-05T15:22:10.290556Z  INFO http.access: resolved DNS-rebinding allowlist allowed_hosts=["localhost", "127.0.0.1", "::1"] allowed_origins=["http://localhost:5300", "https://localhost:5300", "http://127.0.0.1:5300", "https://127.0.0.1:5300", "http://[::1]:5300", "https://[::1]:5300"]
+2026-11-05T15:22:10.290628Z  INFO http.access: plaintext HTTP from non-loopback peers is rejected with 426
+2026-11-05T15:22:10.330767Z  INFO server.file_watch: disk-watch subscriptions initialized profiles_count=1
+2026-11-05T15:22:10.332263Z  INFO plugin.host: plugin registry loaded total=1 active=1 enabled=1 ids=["aoe.web"]
+2026-11-05T15:22:10.333339Z  INFO serve.lifecycle: daemon ready host="127.0.0.1" port=5300 socket=/tmp/aoe-pw-w1-p0-sUkRQ6/config/agent-of-empires-dev/daemon/api.sock auth_mode="none" remote=false core_only=false
+2026-11-05T15:22:10.363499Z  INFO auth.token: running in no-auth mode; requests pass through without token check
+2026-11-05T15:22:11.641797Z  INFO update.parse: version compared current=1.21.0 latest=1.22.0 available=true
+2026-11-05T15:22:11.898060Z  INFO session.status_change: session status changed session=457797f3960c412f title=Malay from="Creating" to="Starting"
+2026-11-05T15:22:12.016505Z  INFO session.create: session created session=457797f3960c412f title=Malay tool=claude view="structured" project_path=/tmp/aoe-pw-w1-p0-sUkRQ6/config/agent-of-empires-dev/scratch/457797f3960c412f branch=None
+2026-11-05T15:22:12.129120Z  INFO acp.protocol.spawn: docker wrap skipped (no sandbox_info) session=457797f3960c412f
+2026-11-05T15:22:12.131389Z  INFO process.systemd: systemd.enabled=false; sessions start unscoped
+2026-11-05T15:22:12.134758Z  INFO acp.protocol.spawn: spawning detached structured view runner session=457797f3960c412f socket=/tmp/aoe-pw-w1-p0-sUkRQ6/config/agent-of-empires-dev/acp-workers/457797f3960c412f.sock runner=/workspace/agent-of-empires-worktrees/aoe-ui-fixer/target/debug/aoe agent=claude-agent-acp resolved=/tmp/aoe-pw-w1-p0-sUkRQ6/bin/claude-agent-acp
+2026-11-05T15:22:12.156982Z  INFO log.runtime: aoe started version="1.21.0" pid=3018444
+2026-11-05T15:22:12.162459486+00:00 INFO log.runtime [AOE_START_MARKER] version=1.21.0 pid=3018444 exe=/workspace/agent-of-empires-worktrees/aoe-ui-fixer/target/debug/aoe
+2026-11-05T15:22:12.164115Z  INFO acp.runner: structured view runner starting session=457797f3960c412f socket=/tmp/aoe-pw-w1-p0-sUkRQ6/config/agent-of-empires-dev/acp-workers/457797f3960c412f.sock agent=claude-agent-acp
+2026-11-05T15:22:12.405199Z  INFO acp.runner: daemon connected (control channel) session=457797f3960c412f
+2026-11-05T15:22:12.433455Z  INFO acp.protocol: runner control channel v3 attached; runner owns the ACP protocol session=457797f3960c412f
+2026-11-05T15:22:12.434108Z  INFO acp.protocol: initializing ACP agent session=457797f3960c412f
+2026-11-05T15:22:12.483040Z  INFO acp.protocol: initialize handshake complete session=457797f3960c412f load_session_capable=true mode=Fresh { stored_acp_session_id: None, seed_history_replay: false, fork_from: None, prior_conversation: false }
+2026-11-05T15:22:12.483302Z  INFO acp.protocol: creating fresh session via session/new session=457797f3960c412f
+2026-11-05T15:22:13.351507Z  INFO acp.supervisor: structured view worker spawned session=457797f3960c412f
+2026-11-05T15:22:13.357055Z  INFO acp.queue: prompt sent session=457797f3960c412f dispatch=Sent text_len=30 attachments=0 send_now=false origin_plugin=None
+2026-11-05T15:22:13.359616Z  INFO session.status_change: session status changed session=457797f3960c412f title=Malay from="Starting" to="Running"
+2026-11-05T15:22:13.362473Z  INFO session.status_change: session status changed session=457797f3960c412f title=Malay from="Running" to="Idle"
+2026-11-05T15:22:13.498916Z  WARN terminal.ws: pane drifted from live owner's grid; re-asserting tmux=aoe_dev_term_Malay_457797f3 kind="live" pane_cols=80 pane_rows=24 want_cols=46 want_rows=32
+2026-11-05T15:22:16.069960Z  WARN acp.supervisor: session close failed; continuing owned runtime cleanup session="457797f3960c412f" close=TimedOut
+2026-11-05T15:22:16.070472Z  INFO acp.protocol: ACP connection task ended cleanly session=457797f3960c412f
+2026-11-05T15:22:16.070722Z  WARN acp.supervisor: drain channel closed (agent connection task ended); evaluating respawn session=457797f3960c412f agent_unresponsive=false
+2026-11-05T15:22:16.076082Z  ERROR file_watch.service: file watch dispatcher exiting; live propagation disabled, polling fallback canonical reason="dispatcher_loop_exit" subscribers_affected=0
+2026-11-05T15:22:19.924963Z  INFO acp.protocol.spawn: docker wrap skipped (no sandbox_info) session=457797f3960c412f
+2026-11-05T15:22:20.275049Z  INFO acp.protocol.spawn: spawning detached structured view runner session=457797f3960c412f socket=/tmp/aoe-pw-w1-p0-sUkRQ6/config/agent-of-empires-dev/acp-workers/457797f3960c412f.sock runner=/workspace/agent-of-empires-worktrees/aoe-ui-fixer/target/debug/aoe agent=claude-agent-acp resolved=/tmp/aoe-pw-w1-p0-sUkRQ6/bin/claude-agent-acp
+2026-11-05T15:22:20.573797Z  INFO log.runtime: aoe started version="1.21.0" pid=3018701
+2026-11-05T15:22:20.650957588+00:00 INFO log.runtime [AOE_START_MARKER] version=1.21.0 pid=3018701 exe=/workspace/agent-of-empires-worktrees/aoe-ui-fixer/target/debug/aoe
+2026-11-05T15:22:20.653930Z  INFO acp.runner: structured view runner starting session=457797f3960c412f socket=/tmp/aoe-pw-w1-p0-sUkRQ6/config/agent-of-empires-dev/acp-workers/457797f3960c412f.sock agent=claude-agent-acp
+2026-11-05T15:22:20.719760Z  INFO acp.runner: daemon connected (control channel) session=457797f3960c412f
+2026-11-05T15:22:20.727541Z  INFO acp.protocol: runner control channel v3 attached; runner owns the ACP protocol session=457797f3960c412f
+2026-11-05T15:22:20.728503Z  INFO acp.protocol: initializing ACP agent session=457797f3960c412f
+2026-11-05T15:22:20.760576Z  INFO acp.protocol: initialize handshake complete session=457797f3960c412f load_session_capable=true mode=Fresh { stored_acp_session_id: None, seed_history_replay: false, fork_from: None, prior_conversation: false }
+2026-11-05T15:22:20.760735Z  INFO acp.protocol: creating fresh session via session/new session=457797f3960c412f
+2026-11-05T15:22:20.762018Z  INFO acp.supervisor: structured view worker spawned session=457797f3960c412f
